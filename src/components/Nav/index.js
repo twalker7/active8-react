@@ -1,10 +1,20 @@
 import React from 'react';
 
-function Nav(){
+function Nav(props){
     return(
-        <div>
-
-        </div>
+        <nav>
+            <ul>
+                <li>
+                    <a> About </a>
+                </li>
+                <li>
+                    <a> Contact </a>
+                </li>
+                <li>
+                    <a> Projects </a>
+                </li>
+            </ul>
+        </nav>
     );
 }
 
