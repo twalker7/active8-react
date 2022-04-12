@@ -5,13 +5,13 @@ function Nav(props){
         <nav>
             <ul>
                 <li>
-                    <a> About </a>
+                    <a href={()=> false}> About </a>
                 </li>
                 <li>
-                    <a> Contact </a>
+                    <a href={()=> false}> Contact </a>
                 </li>
                 <li>
-                    <a> Projects </a>
+                    <a href={()=> false}> Projects </a>
                 </li>
             </ul>
         </nav>
