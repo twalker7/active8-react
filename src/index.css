@@ -11,3 +11,18 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+ul{
+  /*remove bullets from list items*/
+  list-style-type: none; 
+  
+}
+
+nav{
+  background-color: black;
+  
+}
+
+li{
+  font-size: 40px;
+}
